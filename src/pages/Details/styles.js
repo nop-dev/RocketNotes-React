@@ -8,4 +8,16 @@ export const Container = styled.div`
     grid-template-areas: 
     "header"
     "content";
-    `;
+`;
+
+export const Links = styled.ul`
+  list-style: none;
+
+  > li {
+    margin-top: 12px;
+
+        > a, a:visited {
+            color: white;
+        };
+  };
+`;
