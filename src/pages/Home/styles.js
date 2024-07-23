@@ -21,8 +21,6 @@ export const Brand = styled.div`
   justify-content: center;
   align-items: center;
 
-  
-
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
@@ -36,6 +34,14 @@ export const Brand = styled.div`
 
 export const Menu = styled.ul`
   grid-area: menu;
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
+  padding-top: 64px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
 `;
 
 export const Search = styled.div`
