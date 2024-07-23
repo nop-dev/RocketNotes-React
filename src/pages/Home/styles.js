@@ -16,6 +16,22 @@ export const Container = styled.div`
 
 export const Brand = styled.div`
   grid-area: brand;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
+
+  > h1 {
+    font-size: 24px
+    ;
+    color: ${({ theme }) => theme.COLORS.ORANGE};
+    font-weight: bold;
+  }
 `;
 
 export const Menu = styled.ul`
