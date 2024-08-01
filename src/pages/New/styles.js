@@ -10,3 +10,20 @@ export const Container = styled.div`
         'header'
         'content';
 `
+
+export const Form = styled.form`
+    max-width: 550px;
+    margin: 38px auto;
+    
+    > header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 38px;
+
+        > a {
+            text-decoration: none;
+            color: ${({ theme }) => theme.COLORS.GRAY_100 };
+        }
+    }
+    `
