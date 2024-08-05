@@ -28,13 +28,13 @@ export function New() {
 
                     <Section title="Links úteis">
                         <NoteItem value="https://rocketseat.com.br" />
-                        <NoteItem isNew placeholder="Novo link" />
+                        <NoteItem $isnew placeholder="Novo link" />
                     </Section>
 
                     <Section title="Marcadores" className="tags">
                         <div className="tags">
                             <NoteItem value="react" />
-                            <NoteItem isNew placeholder="Nova tag" />
+                            <NoteItem $isnew placeholder="Nova tag" />
                         </div>
                         
                     </Section>
