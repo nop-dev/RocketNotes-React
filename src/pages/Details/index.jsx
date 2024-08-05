@@ -5,6 +5,7 @@ import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tags";
 import { ButtonText } from "../../components/ButtonText";
+import { Link } from "react-router-dom";
 
 export function Details() {
 
@@ -32,7 +33,7 @@ export function Details() {
                   <Tag title="nodejs"/>
                 </Section>
                 
-                <Button title="Voltar" />
+                <Link to={"/"}><Button title="Voltar" /></Link>
               </Content>
             </main>
             
